@@ -2,4 +2,4 @@ FROM openjdk:7
 COPY . actions
 WORKDIR actions
 RUN javac HellowWorld.java
-CMD ["Java", "HwllowWorld"]
+run ["Java", "HwllowWorld"]
