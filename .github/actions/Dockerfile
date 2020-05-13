@@ -1,4 +1,4 @@
 FROM openjdk:7
-COPY . helloworld
-WORKDIR helloworld
-RUN javac HellowWorldApp.java
+
+RUN javac HellowWorld.java
+CMD ["Java", "HwllowWorld"]
