@@ -8,5 +8,5 @@ jobs:
     name: "JavaHelloWorld"
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@l
+    - uses: actions/checkout@2
     - uses: ./helloWorld
