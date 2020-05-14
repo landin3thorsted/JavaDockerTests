@@ -1,5 +1,5 @@
 FROM openjdk:7
 COPY . helloWorld
 WORKDIR helloWorld
-RUN javac HelloWorld.java -d ./helloWorld
+RUN javac -d ./helloWorld HelloWorld.java
 ENTRYPOINT ["java", "HelloWorld"]
